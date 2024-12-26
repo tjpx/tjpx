@@ -1,0 +1,4 @@
+UseMemory = false
+UseOpenAI = false
+UseAzure = true
+UsePinecone = true

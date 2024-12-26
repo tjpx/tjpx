@@ -1,0 +1,5 @@
+Openai = false
+AzureOpenai = false
+XunFeiSpark = false
+BaiduErnie = true
+None = false

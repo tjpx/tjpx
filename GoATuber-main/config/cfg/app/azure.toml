@@ -1,0 +1,44 @@
+  [AzureOpenai]
+    ApiKey = "your_api_key_here"
+    EndPoint = "your_end_point"
+    ApiVersion = "2023-07-01-preview"
+    DeploymentId = "your_deployment_id"
+    Model = "gpt-3.5-turbo-0613"
+    Temperature = 0.3
+    TopP = 1
+    MaxTokens = 1000
+    Stop = "your_stop_here"
+    PresencePenalty = 0
+    FrequencyPenalty = 0
+    Prompt = ''
+
+    [AzureOpenai.MemoryAndClean]
+      ShortMemoryTokenLimit=500
+      CleanAll=true
+      CleanOne=false
+
+    [AzureOpenai.AzureEmbedding]
+      DeploymentID = "your_deployment_id"
+      ApiVersion = "2023-05-15"
+
+  [AzureTTS]
+    ApiKey = "your_api_key_here"
+    EndPoint = "your_end_point"
+
+    [AzureTTS.Speak]
+      Version = "1.0"
+      XmlLang = "cn"
+      XmlnsMstts = "https://www.w3.org/2001/mstts"
+      Xmlns = "http://www.w3.org/2001/10/synthesis"
+
+    [AzureTTS.Voice]
+      Name = "zh-CN-XiaoyiNeural"
+      Effect = ""
+      Rate = "+0.00%"
+      Volume = "+0.00%"
+
+  [AzureSTT]
+    ApiKey = "your_api_key_here"
+    SpeechRegion = "your_speech_region_here"
+    Language = "your_language_here"
+    Format = "your_format_here"

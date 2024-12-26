@@ -1,0 +1,29 @@
+{
+  "compilerOptions": {
+    "module": "esnext",
+    "target": "es2017",
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "experimentalDecorators": true,
+    "forceConsistentCasingInFileNames": true,
+    "outDir": "./dist",
+    "removeComments": true,
+    "sourceMap": true,
+    "baseUrl": "./",
+    "paths": {
+      "@framework/*": ["../../../Framework/src/*"]
+    },
+    "noImplicitAny": true,
+    "useUnknownInCatchVariables": true
+  },
+  "include": [
+    "src/**/*.ts",
+    "../../../Core/*.ts",
+    "src/audioPlayer/*.ts",
+    "src/base64"
+  ],
+  "exclude": [
+    "node_modules",
+    "dist"
+  ]
+}

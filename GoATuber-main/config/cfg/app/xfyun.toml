@@ -1,0 +1,32 @@
+[XunFeiSpark]
+HostURL = 'wss://spark-api.xf-yun.com/v2.1/chat'
+AppID = 'YourAppID'
+ApiKey = 'YourAPIKey'
+ApiSecret = 'YourAPISecret'
+Domain = 'generalv2'
+Temperature = 0.7
+MaxTokens = 2048
+TopK = 4
+Auditing = 'default'
+Prompt = ''
+
+[XunFeiSpark.MemoryAndClean]
+ShortMemoryTokenLimit = 500
+CleanAll = true
+CleanOne = false
+
+[XunFeiTTS]
+ApiKey = ''
+ApiSecret = ''
+AppID = ''
+
+[XunFeiTTS.XunFeiVoice]
+Aue = 'raw'
+Sfl = 0
+Auf = '8000'
+Vcn = 'xiaoyan'
+Speed = 50
+Volume = 50
+Pitch = 50
+Reg = '0'
+Rdn = '0'
